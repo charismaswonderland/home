@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+}
+
+.homepage-background {
+  background: url('images/TarotReadingImage2.png') left top no-repeat, url('images/Newsletter1.png') right bottom no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Sacramento';
+  color: white;
+}
+
+.newsletter-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Sacramento';
+  color: white;
+}
+
+.newsletter-txt {
+  color: black;
+  font-family: 'Montserrat';
+  padding: 20%;
+  font-weight: bolder;
+  font-size: 2.25rem;
+  text-align: center;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.yellow-section {
+  background-color: #fff8c1;
+}
+
+.container-fluid{
+  padding: 3% 7%;
+}
+
+h1 {
+  margin-top: 0;
+  padding: 3%;
+  font-family: 'Sacramento';
+  color: white;
+  background-color: black;
+  width: 100%;
+  font-size:150%;
+  position: fixed;
+}
+
+h2 {
+  font-family: 'Sacramento';
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: black;
+}
+
+h3 {
+
+  /* @media (min-width: 900px){
+    h3 {
+      width: 35%;
+    }
+  } */
+
+  margin-top: 0;
+  padding: 3%;
+  padding-top: 6%;
+  padding-left: 3%;
+  width: 60%;
+  font-family: 'Montserrat';
+}
+
+h6 {
+  margin-top: 0;
+  padding: 3%;
+  width: 60%;
+  padding-left: 3%;
+  padding-bottom: 15%;
+  font-family: 'Montserrat';
+  line-height: 1.5;
+}
+
+.about-text {
+  float:right;
+  padding-right: 60px;
+  color: black;
+  position: relative;
+  max-width: 50%;
+  line-height: 1.75;
+}
+
+/* .about-photo {
+  max-width: 50%;
+  height: auto;
+  padding-top: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  float: left;
+  border-radius: 8px;
+} */
+
+
+/* Navigation Bar */
+.navbar-brand{
+  font-family: 'Sacramento';
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  padding-right: 3%;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.three-columns {
+  text-align: center;
+  padding: 5%;
+  max-width: 100%;
+}
+
+.two-columns {
+  font-family: 'Montserrat';
+  font-size: 115%;
+  color: black;
+  text-align: left;
+  padding: 3%;
+  max-width: 100%;
+}
+
+.pic-txt {
+  text-align: center;
+  color: black;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-family: 'Montserrat';
+}
+
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+  #footer {
+    text-align: center;
+  }
+
+  .disclaimer-header {
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Montserrat';
+    font-size: 200%
+    color: black
+  }
+
+  .disclaimer-text {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Montserrat';
+    font-size: 100%;
+    color: black;
+    padding: 2% 5%;
+  }
+
+  .text-warning {
+    font-size: 7rem;
+  }
+
+  .construction-txt {
+    font-family: 'Montserrat';
+    color: black;
+    font-weight: bolder;
+    font-size: 4rem;
+    padding: 3%;
+  }
+
+.center-everything {
+  text-align: center;
+}
+
+.row {
+  padding-left: 3%;
+  padding-right:3%;
+}
+
+.left3pct {
+  padding-left: 3%;
+}
+
+.leftright3pct {
+  padding-left: 3%;
+  padding-right:3%;
+}
+
+.pad3 {
+  padding:2%;
+}
+
+.white-text {
+  color: white;
+  font-size: 125%;
+  font-weight: bolder;
+}
